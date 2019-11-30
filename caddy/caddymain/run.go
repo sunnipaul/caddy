@@ -40,6 +40,7 @@ import (
 
 	_ "github.com/caddyserver/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
+	_ "github.com/caddyserver/dnsproviders/linode"
 )
 
 func init() {
